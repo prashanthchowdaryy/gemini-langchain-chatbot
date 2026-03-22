@@ -1,60 +1,70 @@
-Gemini 2.5 Flash Chatbot (LangChain + Streamlit)
+# Gemini 2.5 Flash Chatbot (LangChain + Streamlit)
 
-An interactive AI Chatbot powered by Google's Gemini 2.5 Flash model, built using LangChain and Streamlit.
+This project is a simple AI chatbot built using Google's Gemini 2.5 Flash model.
+It uses LangChain for handling prompts and Streamlit for the user interface.
 
-This project demonstrates how to integrate Generative AI models with LangChain pipelines and a simple web interface to create a real-time chatbot.
+---
 
-🚀 Features
+## Features
 
-🤖 AI-powered chatbot using Gemini 2.5 Flash
+* AI chatbot using Gemini 2.5 Flash
+* Built with LangChain
+* Simple Streamlit interface
+* Fast responses using Google API
+* Uses prompt templates
+* Easy to modify and extend
 
-🔗 Built with LangChain LLM pipelines
+---
 
-🌐 Simple and interactive Streamlit UI
+## Tech Stack
 
-⚡ Fast responses using Google Generative AI API
+* Python
+* LangChain
+* Google Generative AI (Gemini)
+* Streamlit
 
-🧠 Prompt engineering with structured templates
+---
 
-🧩 Modular architecture for easy customization
+## Project Structure
 
-🛠️ Tech Stack
+gemini-langchain-streamlit-chatbot/
 
-Python
+* app.py
+* requirements.txt
+* README.md
 
-LangChain
+---
 
-Google Generative AI (Gemini)
+## Installation
 
-Streamlit
-
-Prompt Templates
-
-LLM Output Parsers
-
-📂 Project Structure
-gemini-langchain-streamlit-chatbot
-│
-├── app.py
-├── requirements.txt
-└── README.md
-⚙️ Installation
-
-Clone the repository
+Clone the repository:
 
 git clone https://github.com/YOUR_USERNAME/gemini-langchain-streamlit-chatbot.git
 
-Move into the project folder
+Go to the folder:
 
 cd gemini-langchain-streamlit-chatbot
 
-Install dependencies
+Install dependencies:
 
 pip install -r requirements.txt
-🔑 Setup API Key
+
+---
+
+## API Key Setup
 
 Set your Google API key:
 
 export GOOGLE_API_KEY="your_api_key_here"
 
-Or add it inside the script.
+Or add it directly in the code.
+
+---
+
+## Usage
+
+Run the app:
+
+streamlit run app.py
+
+Open in browser and start chatting.
